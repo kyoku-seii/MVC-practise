@@ -1,0 +1,22 @@
+.app2{
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid green;
+}
+.bar{
+    display: flex;
+}
+.bar > li{
+    width: 50%;
+    border:3px solid black;
+    text-align: center;
+}
+.bar > li.selected{
+    background-color: cornflowerblue;
+}
+.app2 .bar-content > li{
+    display: none;
+}
+.app2 .bar-content > li.active{
+    display: block;
+}

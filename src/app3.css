@@ -1,0 +1,30 @@
+.app3{
+    width:50vw;
+    height:50vh;
+    border:1px solid green;
+}
+.app3 .square{
+    border: 1px solid gray;
+    width: 10vw;
+    height: 15vh;
+    position: relative;
+    left: 50%;
+    margin-left: -5vw;
+    transition: transform 1s;
+}
+
+.app3 .square.active{
+    /* animation: fall 4s ease-in; */
+    transform: translateY(35vh);
+}
+/* @keyframes fall{
+    0%{
+     
+    }
+    50%{
+        transform: translateY(35vh);
+    }
+    100%{
+        transform: translateY(0)
+    }
+} */

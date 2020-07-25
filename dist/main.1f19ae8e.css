@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.frame{
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+}
+
+.app1{
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid red;
+}
+.btnList{
+    width: 120px;
+    margin: 0px auto;
+}
+.btnList > button{
+    width: 20px;
+    height: 20px;
+    margin: 10px 3px;
+    line-height: 20px;
+}
+#screen{
+    text-align: center;
+}
+
+
+.app2{
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid green;
+}
+.bar{
+    display: flex;
+}
+.bar > li{
+    width: 50%;
+    border:3px solid black;
+    text-align: center;
+}
+.bar > li.selected{
+    background-color: cornflowerblue;
+}
+.app2 .bar-content > li{
+    display: none;
+}
+.app2 .bar-content > li.active{
+    display: block;
+}
+
+.app4{
+
+}
+
+.app4 .circle{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+@keyframes changeC{
+    0%{
+        background-color: red;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+.app4 .circle.active{
+    animation: changeC 1s infinite alternate linear;
+}
+.app3{
+    width:50vw;
+    height:50vh;
+    border:1px solid green;
+}
+.app3 .square{
+    border: 1px solid gray;
+    width: 10vw;
+    height: 15vh;
+    position: relative;
+    left: 50%;
+    margin-left: -5vw;
+    transition: transform 1s;
+}
+
+.app3 .square.active{
+    /* animation: fall 4s ease-in; */
+    transform: translateY(35vh);
+}
+/* @keyframes fall{
+    0%{
+     
+    }
+    50%{
+        transform: translateY(35vh);
+    }
+    100%{
+        transform: translateY(0)
+    }
+} */
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */
