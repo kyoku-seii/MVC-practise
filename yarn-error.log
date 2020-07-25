@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\18602\yarn\bin\yarn.js init
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\18602\Anaconda3\Library\bin\graphviz;C:\Program Files (x86)\Graphviz2.38\bin;C:\Program Files\go1.13.1.windows-amd64\go\bin;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\18602\yarn\bin\;C:\Users\18602\hugo_0.73.0_Windows-64bit;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\18602\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\18602\AppData\Local\Programs\Python\Python37\;C:\Users\18602\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\18602\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\18602\AppData\Roaming\npm;C:\Users\18602\AppData\Local\Yarn\bin;C:\Users\18602\AppData\Local\Box\Box Edit\
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\18602\yarn\lib\cli.js:137008:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:866:16)
+      at ReadStream.onkeypress (readline.js:205:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1133:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
